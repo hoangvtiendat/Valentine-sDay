@@ -175,7 +175,7 @@ body {
 .gift-image {
     border-radius: 20px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.488);
-    width: 1950%;
+  
 }
 
 
@@ -200,11 +200,16 @@ body {
     }
 
     .gift-image {
-        width: 80%;
-        max-width: 300px;
+        width: 100%;
+       
+
     }
 
     body {
         background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
     }
 }
