@@ -182,16 +182,16 @@ body {
 @media screen and (max-width: 768px) {
     .contentWeb {
         font-size: 40px;
-        margin-top: -10px;
+        margin-top: -20px;
     }
 
     .titleWeb {
         font-size: 60px;
-        margin-top: 50px;
+        margin-top: 0px;
     }
 
     .parent {
-        margin-top: -300px;
+        margin-top: -250px;
     }
 
     .intro {
@@ -201,7 +201,7 @@ body {
 
     .gift-image {
         width: 100%;
-        margin-top: 150px;
+        margin-top: 130px;
        
 
     }
