@@ -175,18 +175,19 @@ body {
 .gift-image {
     border-radius: 20px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.488);
+    width: 1950%;
 }
 
 
 @media screen and (max-width: 768px) {
     .contentWeb {
-        font-size: 30px;
-        margin-top: -20px;
+        font-size: 40px;
+        margin-top: -10px;
     }
 
     .titleWeb {
-        font-size: 50px;
-        margin-top: 0;
+        font-size: 60px;
+        margin-top: 50px;
     }
 
     .parent {
