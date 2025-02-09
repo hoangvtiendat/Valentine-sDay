@@ -119,6 +119,28 @@ present.addEventListener('click', function () {
   }, 15000);
 });
 
+document.addEventListener('DOMContentLoaded', function () {
+  const audio = document.getElementById('playAudio');
+  const presentBox = document.getElementById('present');
+
+  // Tự động phát nhạc khi vào trang (trình duyệt có thể chặn)
+  function playBackgroundMusic() {
+    if (audio.paused) {
+      audio
+        .play()
+        .catch((error) => console.log('Trình duyệt chặn autoplay:', error));
+    }
+  }
+
+  // Phát nhạc khi bấm mở hộp quà
+  presentBox.addEventListener('click', function () {
+    playBackgroundMusic(); // Đảm bảo nhạc phát khi mở hộp
+  });
+
+  // Xử lý khi người dùng tương tác lần đầu
+  document.body.addEventListener('click', playBackgroundMusic, { once: true });
+});
+
 
 init();
 
