@@ -1,0 +1,87 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Valentine's Day Of ToTo</title>
+  <link rel="stylesheet" href="canvas.css" />
+  <link rel="stylesheet" href="present.css" />
+  <link rel="stylesheet" href="card.css" />
+  <link rel="stylesheet" href="index.css" />
+  <script src="jquery.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Fjalla+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Pacifico&family=Playwrite+IN:wght@100..400&display=swap"
+    rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.0.1"></script>
+<link rel="icon" type="image/png" href="./heartIcon.png">
+
+</head>
+
+<body>
+  <div class="intro">
+    <h1 class=" titleWeb fjalla-one-regular ">HAPPY VALENTINE'S DAY</h1>
+    <h2 class="contentWeb ballet-title">Pham Minh Trang</h2>
+  </div>
+
+  <div class="parent">
+    <canvas id="canvas"></canvas>
+    <div id="heart-container"></div>
+
+    <section class="above-fold">
+      <div class="wrap-present">
+        <div class="present-box" id="present">
+          <div class="present">
+            <div style="z-index: 999;" class="img-wrap" id="present-image"></div>
+          </div>
+          <div class="side front"></div>
+          <div class="side back"></div>
+          <div class="side left"></div>
+          <div class="side right"></div>
+          <div class="side top">
+            <span class="to">
+              <span class="name" id="nametag"> </span>
+            </span>
+          </div>
+          <div class="side bottom"></div>
+        </div>
+      </div>
+      <p class="info-text"></p>
+    </section>
+
+    <div id="gift-box">
+      <!-- Gift box content -->
+    </div>
+
+
+    <div id="card">
+      <h4 class="title-card">💘little coder💘</h4>
+
+      <img src="IMG_5156.JPG" class="honey" />
+
+      <h4 class="content-card ballet-thu">
+
+      </h4>
+    </div>
+  </div>
+  <audio autoplay loop id="playAudio">
+    <source src="nhacnen.mp3">
+  </audio>
+</body>
+<script src="config.js"></script>
+<script src="canvas.js"></script>
+<script src="present.js"></script>
+<script>
+
+</script>
+
+</html>
